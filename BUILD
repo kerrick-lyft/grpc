@@ -493,6 +493,7 @@ grpc_cc_library(
     ],
     deps = [
         "grpc_base",
+        "//third_party/nanopb",
     ],
     external_deps = [
         "nanopb",
