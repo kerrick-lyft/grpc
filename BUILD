@@ -494,6 +494,9 @@ grpc_cc_library(
     deps = [
         "grpc_base",
     ],
+    external_deps = [
+        "nanopb",
+    ],
 )
 
 grpc_cc_library(
